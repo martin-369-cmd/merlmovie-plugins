@@ -15,7 +15,7 @@ I made this MerlMovie Plugins repository by providing additional plugins to scra
 
 ---
 
-## Supported Websites
+## Websites
 
 The following websites are currently supported by these plugins:
 
