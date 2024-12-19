@@ -1,95 +1,75 @@
-# MerlMovie Plugin App
+# MerlMovie Plugins
 
-MerlMovie Plugin App is a powerful and flexible solution designed to enhance the functionality of your movie streaming or metadata-driven applications. This plugin enables seamless handling of URLs, metadata interpretation, and dynamic content presentation.
+Welcome to the MerlMovie Plugins repository! This project enhances your experience with the MerlMovie app by providing additional plugins to scrape and play videos directly from various online sources. Below, you'll find detailed steps for installation, a list of supported websites, and important disclaimers.
 
 ---
 
 ## Features
 
-- **Metadata-Driven Content Handling:**
-  - Analyze and interpret JSON metadata to handle URLs efficiently.
-  - Decide dynamically whether to open web content in a web view or play videos in the built-in player.
-
-- **Stream Type Support:**
-  - Automatically detect and process URLs based on their `stream_type`.
-  - Trigger built-in video player for a streamlined user experience when `stream_type` is set to `api`.
-
-- **Seamless Integration:**
-  - Easy to integrate into your existing apps.
-  - Customizable to suit various user needs and application requirements.
+- **Easy Integration:**
+  - Install plugins directly into the MerlMovie app for a seamless experience.
+- **Wide Compatibility:**
+  - Supports scraping video links from multiple popular streaming websites.
+- **Free Access:**
+  - Enjoy watching movies and TV shows without additional charges.
 
 ---
 
-## Installation
+## Supported Websites
 
-1. Add the package to your `pubspec.yaml`:
-   ```yaml
-   dependencies:
-     merlmovie_plugin: latest_version
-   ```
-2. Run `flutter pub get` to fetch the package.
-3. Import the package in your Dart file:
-   ```dart
-   import 'package:merlmovie_plugin/merlmovie_plugin.dart';
-   ```
+The following websites are currently supported by these plugins:
+
+1. [Kisskh.co](https://kisskh.co)
+2. [Vidsrc.vip](https://vidsrc.vip)
+3. [Embed.su](https://embed.su)
+4. [Vidsrc.me](https://vidsrc.me)
+5. [Vidsrc.cc](https://vidsrc.cc)
 
 ---
 
-## Usage
+## Installation Guide
 
-### Example Code
+Follow these steps to install plugins into the MerlMovie app:
 
-```dart
-import 'package:merlmovie_plugin/merlmovie_plugin.dart';
+1. **Download the Plugin:**
+   - Choose one or more `.merlmovieplugin` files from this repository and download them to your phone's storage.
 
-void main() {
-  final metadata = {
-    "stream_type": "api",
-    "url": "https://example.com/stream.m3u8"
-  };
+2. **Access the Plugin Section:**
+   - Open the MerlMovie app.
+   - Navigate to the bottom right of the app and click on **More**.
+   - Select the **Plugin** option (indicated by a puzzle icon).
 
-  MerlMoviePlugin.handleMetadata(metadata);
-}
-```
+3. **Install the Plugin:**
+   - Tap the three-dot menu in the top right corner.
+   - Select **Install**, which will open the file browser.
+   - Locate the downloaded `.merlmovieplugin` file and select it.
+   - Wait for the app to complete the installation.
 
-For more detailed examples and documentation, visit the [MerlMovie Plugin Documentation](https://github.com/merlmovie/merlmovie-plugin).
-
----
-
-## Contributing
-
-We welcome contributions! Here’s how you can contribute:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Commit your changes.
-4. Submit a pull request.
-
-For more information, check our [Contributing Guidelines](https://github.com/merlmovie/merlmovie-plugin/blob/main/CONTRIBUTING.md).
+4. **Use the Plugin:**
+   - After a successful installation, browse for the movie or TV show you want to watch.
+   - On the Watch Provider page, click **Watch Now**.
+   - Select the installed plugin and start enjoying your content!
 
 ---
 
-## License
+## Disclaimer
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/merlmovie/merlmovie-plugin/blob/main/LICENSE) file for details.
-
----
-
-## Support
-
-If you encounter any issues or have questions, feel free to:
-
-- Open an issue on our [GitHub repository](https://github.com/merlmovie/merlmovie-plugin/issues).
-- Contact us via email at [support@merlmovie.com](mailto:support@merlmovie.com).
+- These plugins are **not officially affiliated with the listed websites**.
+- The functionality of the plugins depends on the availability of content on the supported websites.
+- If a movie or TV show is missing or unavailable, it may be due to:
+  - The content not being uploaded.
+  - Changes or restrictions implemented by the websites.
+  - Other unknown technical issues.
+- Use these plugins at your own discretion and ensure compliance with any applicable laws and regulations.
 
 ---
 
-## Links
+## Notes
 
-- [Documentation](https://github.com/merlmovie/merlmovie-plugin)
-- [GitHub Repository](https://github.com/merlmovie/merlmovie-plugin)
-- [Report an Issue](https://github.com/merlmovie/merlmovie-plugin/issues)
+- **Content Availability:** The plugins rely on scraping publicly available video links, which may not always work as expected.
+- **Future Updates:** As websites change, plugin functionality may need updates to remain effective.
+- **Feedback:** Feel free to report any issues or suggestions to improve this project.
 
 ---
 
-Thank you for using the MerlMovie Plugin App! Your feedback and support make this project better.
+For detailed documentation, visit the [MerlMovie Plugin Documentation](https://merlmovie.org/docs/plugin).
