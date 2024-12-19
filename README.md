@@ -47,7 +47,8 @@ Follow these steps to install plugins into the MerlMovie app:
 
 4. **Use the Plugin:**
    - After a successful installation, browse for the movie or TV show you want to watch.
-   - On the Watch Provider page, click **Watch Now**.
+   - On the Movie Detail page click **Watch Now** button.
+   - Now on the Watch Provider page click on Plugin Tab you will see the installed plugin there.
    - Select the installed plugin and start enjoying your content!
 
 ---
