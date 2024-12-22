@@ -24,6 +24,7 @@ The following websites are currently supported by these plugins:
 3. [Embed.su](https://embed.su)
 4. [Vidsrc.me](https://vidsrc.me)
 5. [Vidsrc.cc](https://vidsrc.cc)
+6. [Multistream.su](https://multiembed.mov)
 
 ---
 
